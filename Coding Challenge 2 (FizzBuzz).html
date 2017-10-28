@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+		<style type="text/css">
+			body{
+				/*font and body style and appearance*/
+				background-image: url(https://cdn.shutterstock.com/shutterstock/videos/23047210/thumb/1.jpg);
+				background-size: cover; 
+				color: white;
+				font-size: 70px;
+				text-shadow: 6px 4px 15px rgb(19,228,247);
+				font-family: "Finger Paint";
+				position: absolute;
+				top: 30%;
+				left: 5%;
+				text-align: center;
+			}
+		</style>
+
+	</head>
+	<body>
+		<h2>The numbers are display in the console</h2>
+
+		<script type="text/javascript">
+			
+			var i = 0;
+
+			while(i <= 100){
+				if(i%3==0 && i%5==0){
+					console.log("FizzBuzz");
+				}else if(i%3==0){
+					console.log("Fizz");
+				}else if(i%5==0){
+					console.log("Buzz");
+				}else{
+					console.log(i);
+				}
+				i++
+			}
+		</script>
+
+	</body>
+</html>
